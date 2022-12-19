@@ -1,7 +1,7 @@
 <template>
 	<DuoContentGrid bgColor="#010606" style="margin-top: 12px">
 		<template v-slot:left_and_bottom>
-			<img style="max-height: 500px" src="../assets/img/LebensArt_Dupont_Hermeskeil_News_Sommer.jpg" />
+			<img style="max-height: 500px" src="../assets/img/LebensArt_Hermeskeil_Dupont_News_Winter.jpg" />
 		</template>
 
 		<template v-slot:right_and_top>
@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 import DuoContentGrid from "./baseComponents/Duo_Content_Grid.vue";
-const text = "Maritime Sommerdeko und leckere Sommerware eingetroffen 💙🐚🌞💙🐚🌞";
+const text = "Neue Öffnungszeiten bis Weihnachten";
 </script>
 
 <style lang="scss">

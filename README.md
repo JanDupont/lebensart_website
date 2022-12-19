@@ -2,6 +2,7 @@
 
 # Todo
 
+-   [ ] responsive medium screen
 -   [ ] Contact form
 -   [ ] Maps confirmation
 -   [ ] Font & Logo mit Font
