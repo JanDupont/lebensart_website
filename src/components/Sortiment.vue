@@ -16,36 +16,21 @@
 <script setup lang="ts">
 import WaveDivider from "../components/WaveDivider.vue";
 
-import BrändeImg from "../assets/img/LebensArt_Dupont_Brände.jpg";
-import FeinkostImg from "../assets/img/LebensArt_Dupont_Feinkost.jpg";
-import EssigÖlImg from "../assets/img/LebensArt_Dupont_Essig_Öl.jpg";
-import PastaPestoImg from "../assets/img/LebensArt_Dupont_Nudeln.jpg";
-import DipsImg from "../assets/img/LebensArt_Dupont_Dips.jpg";
-import SenfImg from "../assets/img/LebensArt_Dupont_Senf.jpg";
-import PralinenImg from "../assets/img/LebensArt_Dupont_Pralinen.jpeg";
-import TeeImg from "../assets/img/LebensArt_Dupont_Tee.jpg";
-import NachhaltigImg from "../assets/img/LebensArt_Dupont_Spueltuch.jpg";
-import DekoImg from "../assets/img/LebensArt_Dupont_Deko.jpg";
-import TischdekoImg from "../assets/img/LebensArt_Dupont_Tischdeko.jpg";
-import SchmuckImg from "../assets/img/LebensArt_Dupont_Trendschmuck.jpeg";
-import GutscheinImg from "../assets/img/LebensArt_Dupont_Gutschein.jpeg";
-import VerpackungImg from "../assets/img/LebensArt_Dupont_Verpackung.jpg";
-
 const items = [
-	{ src: BrändeImg, title: "Spirituosen | Brände | Liköre" },
-	{ src: FeinkostImg, title: "Feinkost" },
-	{ src: EssigÖlImg, title: "Essig | Öl" },
-	{ src: PastaPestoImg, title: "Pasta | Pesto" },
-	{ src: DipsImg, title: "Dips | Gewürzmischungen" },
-	{ src: SenfImg, title: "Senfe | Senfmühle" },
-	{ src: PralinenImg, title: "Pralinen | Schokoladen" },
-	{ src: TeeImg, title: "Tee | Zubehör" },
-	{ src: NachhaltigImg, title: "nachhaltig | vegan" },
-	{ src: DekoImg, title: "Deko" },
-	{ src: TischdekoImg, title: "Tischdeko" },
-	{ src: SchmuckImg, title: "Trendschmuck" },
-	{ src: GutscheinImg, title: "Gutscheine" },
-	{ src: VerpackungImg, title: "Verpackungsservice" },
+	{ src: "/assets/img/LebensArt_Dupont_Brände.jpg", title: "Spirituosen | Brände | Liköre" },
+	{ src: "/assets/img/LebensArt_Dupont_Feinkost.jpg", title: "Feinkost" },
+	{ src: "/assets/img/LebensArt_Dupont_Essig_Öl.jpg", title: "Essig | Öl" },
+	{ src: "/assets/img/LebensArt_Dupont_Nudeln.jpg", title: "Pasta | Pesto" },
+	{ src: "/assets/img/LebensArt_Dupont_Dips.jpg", title: "Dips | Gewürzmischungen" },
+	{ src: "/assets/img/LebensArt_Dupont_Senf.jpg", title: "Senfe | Senfmühle" },
+	{ src: "/assets/img/LebensArt_Dupont_Pralinen.jpeg", title: "Pralinen | Schokoladen" },
+	{ src: "/assets/img/LebensArt_Dupont_Tee.jpg", title: "Tee | Zubehör" },
+	{ src: "/assets/img/LebensArt_Dupont_Spueltuch.jpg", title: "nachhaltig | vegan" },
+	{ src: "/assets/img/LebensArt_Dupont_Deko.jpg", title: "Deko" },
+	{ src: "/assets/img/LebensArt_Dupont_Tischdeko.jpg", title: "Tischdeko" },
+	{ src: "/assets/img/LebensArt_Dupont_Trendschmuck.jpeg", title: "Trendschmuck" },
+	{ src: "/assets/img/LebensArt_Dupont_Gutschein.jpeg", title: "Gutscheine" },
+	{ src: "/assets/img/LebensArt_Dupont_Verpackung.jpg", title: "Verpackungsservice" },
 ];
 </script>
 
