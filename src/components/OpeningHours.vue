@@ -31,7 +31,9 @@
 				<div class="topLine">{{ topLine }}</div>
 				<div class="heading">{{ heading }}</div>
 				<div class="text-white">
-					<strong>Di, Do, Fr: </strong> 10.00-11:30 Uhr und 15:00-19:00 Uhr
+					<strong>Mo: </strong> geschlossen
+					<br />
+					<strong>Di, Do, Fr: </strong> 10.00-11:30 & 15:00-19:00 Uhr
 					<br />
 					<strong>Mi: </strong>10:00-11:30 Uhr
 					<br />
