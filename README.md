@@ -8,3 +8,4 @@
 -   [x] Font & Logo mit Font
 -   [x] Google Font requests verhindern (lokal einbinden)
 -   [x] Google Font requests der GoogleMap verhindern (Anzeige erst nach Nutzer Zustimmung)
+-   [x] info banner landing section
