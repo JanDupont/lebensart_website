@@ -28,6 +28,10 @@ const props = defineProps({
 
 <style lang="scss">
 .ContentWrapper {
+	@media screen and (max-height: 730px) {
+		padding-top: 100px;
+		padding-bottom: 150px;
+	}
 	@media screen and (max-width: 600px) {
 		padding-top: 50px;
 		padding-bottom: 70px;

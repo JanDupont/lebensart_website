@@ -2,9 +2,9 @@
 
 # Todo
 
--   [ ] responsive medium screen
+-   [x] responsive medium screen
 -   [ ] Contact form
 -   [x] Maps confirmation
--   [ ] Font & Logo mit Font
+-   [x] Font & Logo mit Font
 -   [x] Google Font requests verhindern (lokal einbinden)
 -   [x] Google Font requests der GoogleMap verhindern (Anzeige erst nach Nutzer Zustimmung)
