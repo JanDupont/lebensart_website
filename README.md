@@ -4,5 +4,7 @@
 
 -   [ ] responsive medium screen
 -   [ ] Contact form
--   [ ] Maps confirmation
+-   [x] Maps confirmation
 -   [ ] Font & Logo mit Font
+-   [x] Google Font requests verhindern (lokal einbinden)
+-   [x] Google Font requests der GoogleMap verhindern (Anzeige erst nach Nutzer Zustimmung)

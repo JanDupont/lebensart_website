@@ -1,7 +1,20 @@
 <template>
 	<DuoContentGrid bgColor="#010606" style="margin-top: 12px">
 		<template v-slot:left_and_bottom>
+			<div v-if="!showMap" class="öffnungszeitenMap d-flex align-center justify-center">
+				<img src="../assets/img/fakeMap.png" class="öffnungszeitenMap" style="filter: brightness(17%)" />
+				<div style="position: absolute">
+					<div class="text-h5 text-white">Google Maps verwenden</div>
+					<br />
+					<div class="text-white">Dabei werden dazu relevante Daten</div>
+					<div class="text-white">an Google weitergeleitet</div>
+					<br />
+					<v-btn color="success" @click="showMap = !showMap">Zustimmen</v-btn>
+				</div>
+			</div>
+
 			<iframe
+				v-if="showMap"
 				class="öffnungszeitenMap"
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2583.1977340560356!2d6.939151315923227!3d49.650573452554276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795852c7489513f%3A0x289e6d154a452c4e!2sLebensArt%20Dupont!5e0!3m2!1sen!2sde!4v1614959962859!5m2!1sen!2sde"
 				height="400px"
@@ -10,6 +23,7 @@
 				scrolling="no"
 				loading="lazy"
 			/>
+			<div>Hi</div>
 		</template>
 
 		<template v-slot:right_and_top>
@@ -48,11 +62,14 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from "vue";
 import DuoContentGrid from "./baseComponents/Duo_Content_Grid.vue";
 import WaveDivider from "./WaveDivider.vue";
 
 let topLine = "SO ERREICHEN SIE UNS";
 let heading = "Öffnungszeiten";
+
+const showMap = ref<boolean>(false);
 </script>
 
 <style scoped lang="scss">
