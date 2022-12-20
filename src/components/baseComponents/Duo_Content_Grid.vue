@@ -28,7 +28,7 @@ const props = defineProps({
 
 <style lang="scss">
 .ContentWrapper {
-	@media screen and (max-height: 730px) {
+	@media screen and (max-height: 900px) {
 		padding-top: 100px;
 		padding-bottom: 150px;
 	}
@@ -38,7 +38,7 @@ const props = defineProps({
 	}
 }
 .ContentRow {
-	height: 80vh;
+	min-height: 80vh;
 	width: 100%;
 	@media screen and (max-width: 600px) {
 		height: 100%;
