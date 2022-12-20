@@ -1,7 +1,7 @@
 <template>
 	<v-card class="infoBannerCard" color="black">
-		<v-img src="/assets/img/LebensArt_Dupont_Hermeskeil_infoImg.jpg" height="200px" cover></v-img>
-		<v-card-title class="text-white"> Wir wünschen schöne Weihnachten </v-card-title>
+		<v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_infoImg.jpg" cover></v-img>
+		<div class="ma-2 text-h6 text-white">Wir wünschen schöne Weihnachten</div>
 	</v-card>
 </template>
 
@@ -18,6 +18,12 @@
 		top: 5%;
 		left: calc(47vw - 150px);
 		width: 300px;
+	}
+}
+.infoBannerCardImg {
+	height: 200px;
+	@media screen and (max-width: 600px) {
+		height: 130px;
 	}
 }
 </style>
