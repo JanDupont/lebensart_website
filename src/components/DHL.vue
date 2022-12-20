@@ -31,7 +31,7 @@
 							Paket/ Retouren label drucken
 						</v-card-text>
 					</v-card>
-					<v-card color="#86e4f7" href="https://www.dhl.de/de/privatkunden.html" target="_blank">
+					<v-card color="success" href="https://www.dhl.de/de/privatkunden.html" target="_blank">
 						<div class="text-h6 ma-2" style="text-align: center">
 							<v-icon icon="mdi-cube-send"></v-icon>
 							Pakete direkt zu uns senden

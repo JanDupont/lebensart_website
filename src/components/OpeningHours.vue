@@ -56,7 +56,7 @@
 			</div>
 		</template>
 		<template v-slot:bottomDivider>
-			<WaveDivider :divider-color="'#7986cb'" :top="false" />
+			<WaveDivider :divider-color="'#ffb74d'" :top="false" />
 		</template>
 	</DuoContentGrid>
 </template>
