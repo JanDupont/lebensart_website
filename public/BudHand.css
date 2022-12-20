@@ -1,0 +1,7 @@
+@font-face {
+	font-family: "BudHand";
+	font-weight: 400;
+	font-style: normal;
+	font-display: auto;
+	src: local("BudHand"), url("/BudHand/Budhrg__.ttf") format("truetype");
+}

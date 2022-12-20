@@ -9,8 +9,8 @@ export async function loadFonts() {
 
 	webFontLoader.load({
 		custom: {
-			families: ["Roboto:100,300,400,500,700,900&display=swap, Material+Icons"],
-			urls: ["/Roboto.css"],
+			families: ["Roboto:100,300,400,500,700,900&display=swap, Material+Icons", "BudHand"],
+			urls: ["/Roboto.css", "/BudHand.css"],
 		},
 	});
 }

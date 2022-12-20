@@ -5,11 +5,11 @@
 		</template>
 
 		<v-app-bar-title
-			style="color: #cc1010"
+			style="color: #cc1010; font-family: 'BudHand'; font-weight: bold; font-size: x-large"
 			@click="scrollToTop"
 			@mouseover="cursorPointer(true)"
 			@mouseleave="cursorPointer(false)"
-			>LebensArt Dupont Hermeskeil</v-app-bar-title
+			>LebensArt</v-app-bar-title
 		>
 
 		<v-spacer class="hidden-md-and-down"></v-spacer>
