@@ -31,7 +31,7 @@
 							Paket/ Retouren label drucken
 						</v-card-text>
 					</v-card>
-					<v-card color="success" href="https://www.dhl.de/de/privatkunden.html" target="_blank">
+					<v-card color="success" :href="link" target="_blank">
 						<div class="text-h6 ma-2" style="text-align: center">
 							<v-icon icon="mdi-cube-send"></v-icon>
 							Pakete direkt zu uns senden
@@ -39,7 +39,26 @@
 						<div class="d-flex align-center">
 							<v-icon icon="mdi-cursor-default-click" width="100%" class="mx-auto"></v-icon>
 						</div>
-						<v-card-text style="text-align: center">Straßen Name: 422 LebensArt Hermeskeil </v-card-text>
+						<v-card-text class="d-flex justify-center">
+							<v-col cols="6">
+								<v-row>
+									<v-col class="pa-0">Straße:</v-col>
+									<v-col class="pa-0">Postfiliale</v-col>
+								</v-row>
+								<v-row>
+									<v-col class="pa-0">Nr:</v-col>
+									<v-col class="pa-0">422</v-col>
+								</v-row>
+								<v-row>
+									<v-col class="pa-0">PLZ:</v-col>
+									<v-col class="pa-0">54411</v-col>
+								</v-row>
+								<v-row>
+									<v-col class="pa-0">Ort:</v-col>
+									<v-col class="pa-0">Hermeskeil</v-col>
+								</v-row>
+							</v-col>
+						</v-card-text>
 					</v-card>
 				</div>
 			</div>
@@ -57,6 +76,8 @@ import WaveDivider from "../components/WaveDivider.vue";
 
 const topLine = "Vor Ort";
 const heading = "DHL-Paketshop";
+const link =
+	"https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/filiale-empfang.html#:~:text=pers%C3%B6nliche%20Kundennummer%20erhalten.-,2.%20Adressangabe,-Geben%20Sie%20bei";
 </script>
 
 <style scoped>
