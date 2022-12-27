@@ -2,6 +2,7 @@
 	<v-card class="infoBannerCard" color="black">
 		<v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_infoImg.jpg" cover></v-img>
 		<div class="ma-2 text-h6 text-white">Wir wünschen schöne Weihnachten</div>
+		<div class="ma-2 text-h6 text-white">Donnerstag Nachmittag geschlossen! (29.12.2022)</div>
 	</v-card>
 </template>
 
