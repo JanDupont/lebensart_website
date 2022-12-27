@@ -1,14 +1,18 @@
 <template>
 	<DuoContentGrid bgColor="#010606" style="margin-top: 12px">
 		<template v-slot:left_and_bottom>
-			<img style="max-height: 500px" src="../assets/img/LebensArt_Hermeskeil_Dupont_News_Winter.jpg" />
+			<img style="max-height: 500px" src="../assets/img/LebensArt_Hermeskeil_Dupont_News_Neujahr.jpg" />
 		</template>
 
 		<template v-slot:right_and_top>
 			<div align="left" style="min-width: 300px; max-width: 50%">
 				<div class="topLine">News</div>
 				<div class="heading">Neues</div>
-				<div class="subtitle">{{ text }}</div>
+				<div class="subtitle">
+					Wir wünschen ein <br />
+					GUTES <br />
+					NEUES JAHR 🍀🍀🍀
+				</div>
 			</div>
 		</template>
 	</DuoContentGrid>
@@ -16,7 +20,7 @@
 
 <script setup lang="ts">
 import DuoContentGrid from "./baseComponents/Duo_Content_Grid.vue";
-const text = "Neue Öffnungszeiten bis Weihnachten";
+const text = "Wir wünschen ein\nGUTES\nNEUES JAHR 🍀🍀🍀";
 </script>
 
 <style lang="scss">
