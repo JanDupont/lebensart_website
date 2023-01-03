@@ -5,7 +5,7 @@
 			src="/assets/img/LebensArt_Dupont_Hermeskeil_infoImg_Neujahr.jpg"
 			cover
 		></v-img>
-		<div class="ma-2 text-h6 text-white"></div>
+		<div class="ma-2 text-h6 text-white">Am Donnerstag (5. Janurar) nur bis 18:00 Uhr geöffnet.</div>
 	</v-card>
 </template>
 
