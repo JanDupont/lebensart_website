@@ -1,11 +1,8 @@
 <template>
 	<v-card class="infoBannerCard" color="black">
-		<v-img
-			class="infoBannerCardImg"
-			src="/assets/img/LebensArt_Dupont_Hermeskeil_infoImg_Neujahr.jpg"
-			cover
-		></v-img>
-		<div class="ma-2 text-h6 text-white"></div>
+		<!-- cover -->
+		<v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_infoImg_Staender.jpg"></v-img>
+		<!-- <div class="ma-2 text-h6 text-white"></div> -->
 	</v-card>
 </template>
 
