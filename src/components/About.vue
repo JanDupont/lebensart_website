@@ -28,7 +28,7 @@ import WaveDivider from "../components/WaveDivider.vue";
 
 const topLine = "Herzlich Willkommen";
 const heading = "Bei uns finden Sie für jeden Anlass das passende Geschenk.";
-const subtitle = `Spirituosen, Liköre, Wein, Essige, Öle, Feinkost, Dips, Gewürzmischungen, Pasta, Pesto, Fruchtaufstriche, Tee, Pralinen, Schokoladen, Deko, individuelle Präsentkörbe und vieles mehr...\n\nAm 1.7.2008 haben wir, Silvia und Martin Dupont, das 1. Feinkost-Deko-Geschenke-Geschäft in Hermeskeil, Rosenweg 12, eröffnet.`;
+const subtitle = `Spirituosen, Liköre, Wein, Essige, Öle, Feinkost, Dips, Gewürzmischungen, Pasta, Pesto, Fruchtaufstriche, Tee, Pralinen, Schokoladen, die Sie lieben werden zum selbst vernaschen, verschenken oder verwöhnen.\n\nGerne stellen wir für Sie Geschenke und Geschenkkörbe zusammen. Des Weiteren finden Sie jahreszeitliche Deko für innen und außen.\n\nAm 1.7.2008 haben wir, Silvia und Martin Dupont, das 1. Feinkost-Deko-Geschenke-Geschäft in Hermeskeil, Rosenweg 12, eröffnet.`;
 </script>
 
 <style scoped>
