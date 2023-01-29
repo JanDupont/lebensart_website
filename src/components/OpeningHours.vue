@@ -41,19 +41,6 @@
 					<br />
 					<br />
 					<strong>Tel.: 06503/8933</strong>
-					<br />
-					<br />
-					<strong>Corona-Situation</strong>
-					<br />
-					Entsprechende Hygienevorkehrungen sind getroffen.
-					<br />
-					Halten Sie bitte Abstand.
-					<br />
-					Mundschutz- /Nasenbedeckungen ausschließlich OP-Masken und FFP2-Masken tragen!
-					<br />
-					Vielen Dank für Ihr Verständnis.
-					<br />
-					Bleiben Sie gesund!
 				</div>
 			</div>
 		</template>
