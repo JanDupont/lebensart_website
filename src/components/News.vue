@@ -9,9 +9,7 @@
 				<div class="topLine">News</div>
 				<div class="heading">Neues</div>
 				<div class="subtitle">
-					Wir wünschen ein <br />
-					GUTES <br />
-					NEUES JAHR 🍀🍀🍀
+					{{ text }}
 				</div>
 			</div>
 		</template>
@@ -20,7 +18,7 @@
 
 <script setup lang="ts">
 import DuoContentGrid from "./baseComponents/Duo_Content_Grid.vue";
-const text = "Wir wünschen ein\nGUTES\nNEUES JAHR 🍀🍀🍀";
+const text = "Neue Feinkostartikel eingetroffen!";
 </script>
 
 <style lang="scss">
