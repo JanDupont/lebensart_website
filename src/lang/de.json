@@ -1,0 +1,77 @@
+{
+	"SidebarItem": {
+		"news": "Neuigkeiten",
+		"about": "Über uns",
+		"dhl": "DHL-Paketshop",
+		"sortiment": "Sortiment",
+		"öffnungszeiten": "Öffnungszeiten"
+	},
+	"InfoBanner": {
+		"text1": "Valentinstag 14.2.23",
+		"text2": "viele tolle Geschenkideen im Namen der Rose"
+	},
+	"NewsPage": {
+		"topLine": "News",
+		"heading": "Neues",
+		"subtitle": "Neue Feinkostartikel eingetroffen!"
+	},
+	"AboutPage": {
+		"topLine": "Herzlich Willkommen",
+		"heading": "Bei uns finden Sie für jeden Anlass das passende Geschenk.",
+		"subtitle": "Spirituosen, Liköre, Wein, Essige, Öle, Feinkost, Dips, Gewürzmischungen, Pasta, Pesto, Fruchtaufstriche, Tee, Pralinen, Schokoladen, die Sie lieben werden zum selbst vernaschen, verschenken oder verwöhnen.\n\nGerne stellen wir für Sie Geschenke und Geschenkkörbe zusammen. Des Weiteren finden Sie jahreszeitliche Deko für innen und außen.\n\nAm 1.7.2008 haben wir, Silvia und Martin Dupont, das 1. Feinkost-Deko-Geschenke-Geschäft in Hermeskeil, Rosenweg 12, eröffnet."
+	},
+	"DHLPage": {
+		"topLine": "Vor Ort",
+		"heading": "DHL-Paketshop",
+		"link": "https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/filiale-empfang.html#:~:text=pers%C3%B6nliche%20Kundennummer%20erhalten.-,2.%20Adressangabe,-Geben%20Sie%20bei",
+		"text1": "Pakete, Päckchen, Retouren abgeben",
+		"text2": "Briefmarken, Paketmarken kaufen",
+		"text3": "Paket/ Retouren label drucken",
+		"text4": "Pakete direkt zu uns senden"
+	},
+	"SortimentPage": {
+		"1": { "src": "/assets/img/LebensArt_Dupont_Brände.jpg", "title": "Spirituosen - Brände - Liköre" },
+		"2": { "src": "/assets/img/LebensArt_Dupont_Feinkost.jpg", "title": "Feinkost" },
+		"3": { "src": "/assets/img/LebensArt_Dupont_Essig_Öl.jpg", "title": "Essig - Öl" },
+		"4": { "src": "/assets/img/LebensArt_Dupont_Nudeln.jpg", "title": "Pasta - Pesto" },
+		"5": { "src": "/assets/img/LebensArt_Dupont_Dips.jpg", "title": "Dips - Gewürzmischungen" },
+		"6": { "src": "/assets/img/LebensArt_Dupont_Senf.jpg", "title": "Senfe - Senfmühle" },
+		"7": { "src": "/assets/img/LebensArt_Dupont_Pralinen.jpeg", "title": "Pralinen - Schokoladen" },
+		"8": { "src": "/assets/img/LebensArt_Dupont_Tee.jpg", "title": "Tee - Zubehör" },
+		"9": { "src": "/assets/img/LebensArt_Dupont_Spueltuch.jpg", "title": "nachhaltig - vegan" },
+		"10": { "src": "/assets/img/LebensArt_Dupont_Deko.jpg", "title": "Deko" },
+		"11": { "src": "/assets/img/LebensArt_Dupont_Tischdeko.jpg", "title": "Tischdeko" },
+		"12": { "src": "/assets/img/LebensArt_Dupont_Trendschmuck.jpeg", "title": "Trendschmuck" },
+		"13": { "src": "/assets/img/LebensArt_Dupont_Gutschein.jpeg", "title": "Gutscheine" },
+		"14": { "src": "/assets/img/LebensArt_Dupont_Verpackung.jpg", "title": "Verpackungsservice" }
+	},
+	"OpeningHoursPage": {
+		"topLine": "SO ERREICHEN SIE UNS",
+		"heading": "Öffnungszeiten",
+		"days": {
+			"1": {
+				"short": "Mo:",
+				"time": "geschlossen"
+			},
+			"2": {
+				"short": "Di, Do, Fr: ",
+				"time": "10.00-11:30 & 15:00-19:00 Uhr"
+			},
+			"3": {
+				"short": "Mi:",
+				"time": "10:00-11:30 Uhr"
+			},
+			"4": {
+				"short": "Sa:",
+				"time": "10:00-12:00 Uhr"
+			}
+		},
+		"phone": "Tel.: 06503/8933",
+		"maps": {
+			"headline": "Google Maps verwenden",
+			"info1": "Dabei werden dazu relevante Daten",
+			"info2": "an Google weitergeleitet",
+			"action": "Zustimmen"
+		}
+	}
+}

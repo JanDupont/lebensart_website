@@ -6,11 +6,9 @@
 
 		<template v-slot:right_and_top>
 			<div align="left" style="min-width: 300px; max-width: 50%">
-				<div class="topLine">News</div>
-				<div class="heading">Neues</div>
-				<div class="subtitle">
-					{{ text }}
-				</div>
+				<div class="topLine">{{ t("NewsPage.topLine") }}</div>
+				<div class="heading">{{ t("NewsPage.heading") }}</div>
+				<div class="subtitle">{{ t("NewsPage.subtitle") }}</div>
 			</div>
 		</template>
 	</DuoContentGrid>
@@ -18,7 +16,9 @@
 
 <script setup lang="ts">
 import DuoContentGrid from "./baseComponents/Duo_Content_Grid.vue";
-const text = "Neue Feinkostartikel eingetroffen!";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
 </script>
 
 <style lang="scss">

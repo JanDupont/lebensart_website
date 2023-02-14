@@ -10,31 +10,31 @@
 
 		<template v-slot:right_and_top>
 			<div align="left" style="min-width: 300px; max-width: 50%">
-				<div class="topLine">{{ topLine }}</div>
-				<div class="heading">{{ heading }}</div>
+				<div class="topLine">{{ t("DHLPage.topLine") }}</div>
+				<div class="heading">{{ t("DHLPage.heading") }}</div>
 				<div class="subtitle">
 					<v-card color="#ffcc01" class="mb-1">
 						<v-card-text>
 							<v-icon icon="mdi-package-variant-closed"></v-icon>
-							Pakete, Päckchen, Retouren abgeben
+							{{ t("DHLPage.text1") }}
 						</v-card-text>
 					</v-card>
 					<v-card color="#ffcc01" class="mb-1">
 						<v-card-text>
 							<v-icon icon="mdi-postage-stamp"></v-icon>
-							Briefmarken, Paketmarken kaufen
+							{{ t("DHLPage.text2") }}
 						</v-card-text>
 					</v-card>
 					<v-card color="#ffcc01" class="mb-1">
 						<v-card-text>
 							<v-icon icon="mdi-printer"></v-icon>
-							Paket/ Retouren label drucken
+							{{ t("DHLPage.text3") }}
 						</v-card-text>
 					</v-card>
-					<v-card color="success" :href="link" target="_blank">
+					<v-card color="success" :href="t('DHLPage.link')" target="_blank">
 						<div class="text-h6 ma-2" style="text-align: center">
 							<v-icon icon="mdi-cube-send"></v-icon>
-							Pakete direkt zu uns senden
+							{{ t("DHLPage.text4") }}
 						</div>
 						<div class="d-flex align-center">
 							<v-icon icon="mdi-cursor-default-click" width="100%" class="mx-auto"></v-icon>
@@ -73,11 +73,9 @@
 <script setup lang="ts">
 import DuoContentGrid from "./baseComponents/Duo_Content_Grid.vue";
 import WaveDivider from "../components/WaveDivider.vue";
+import { useI18n } from "vue-i18n";
 
-const topLine = "Vor Ort";
-const heading = "DHL-Paketshop";
-const link =
-	"https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/filiale-empfang.html#:~:text=pers%C3%B6nliche%20Kundennummer%20erhalten.-,2.%20Adressangabe,-Geben%20Sie%20bei";
+const { t } = useI18n();
 </script>
 
 <style scoped>

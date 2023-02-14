@@ -3,14 +3,18 @@
 		<!-- cover -->
 		<v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_Valentinstag.jpeg"></v-img>
 		<div class="ma-2 text-h6 text-white">
-			Valentinstag 14.2.23
+			{{ t("InfoBanner.text1") }}
 			<br />
-			viele tolle Geschenkideen im Namen der Rose
+			{{ t("InfoBanner.text2") }}
 		</div>
 	</v-card>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
+</script>
 
 <style scoped lang="scss">
 .infoBannerCard {

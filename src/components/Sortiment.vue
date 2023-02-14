@@ -2,10 +2,17 @@
 	<div class="sortimentContainer">
 		<WaveDivider :divider-color="'#010606'" :top="true" />
 		<v-row align="center" justify="center" style="height: 100%; width: 80%; margin: auto; padding: 80px 0">
-			<v-card v-for="item in items" width="400" class="ma-2">
-				<v-img height="200" :src="item.src" cover class="text-white"></v-img>
+			<v-card v-for="index in 14" :key="index" width="400" class="ma-2">
+				<v-img
+					height="200"
+					:src="t('SortimentPage.' + String(index) + '.src')"
+					cover
+					class="text-white"
+				></v-img>
 				<v-card-text style="background-color: #010606">
-					<div class="font-weight-bold text-white text-h6">{{ item.title }}</div>
+					<div class="font-weight-bold text-white text-h6">
+						{{ t("SortimentPage." + String(index) + ".title") }}
+					</div>
 				</v-card-text>
 			</v-card>
 		</v-row>
@@ -15,23 +22,9 @@
 
 <script setup lang="ts">
 import WaveDivider from "../components/WaveDivider.vue";
+import { useI18n } from "vue-i18n";
 
-const items = [
-	{ src: "/assets/img/LebensArt_Dupont_Brände.jpg", title: "Spirituosen | Brände | Liköre" },
-	{ src: "/assets/img/LebensArt_Dupont_Feinkost.jpg", title: "Feinkost" },
-	{ src: "/assets/img/LebensArt_Dupont_Essig_Öl.jpg", title: "Essig | Öl" },
-	{ src: "/assets/img/LebensArt_Dupont_Nudeln.jpg", title: "Pasta | Pesto" },
-	{ src: "/assets/img/LebensArt_Dupont_Dips.jpg", title: "Dips | Gewürzmischungen" },
-	{ src: "/assets/img/LebensArt_Dupont_Senf.jpg", title: "Senfe | Senfmühle" },
-	{ src: "/assets/img/LebensArt_Dupont_Pralinen.jpeg", title: "Pralinen | Schokoladen" },
-	{ src: "/assets/img/LebensArt_Dupont_Tee.jpg", title: "Tee | Zubehör" },
-	{ src: "/assets/img/LebensArt_Dupont_Spueltuch.jpg", title: "nachhaltig | vegan" },
-	{ src: "/assets/img/LebensArt_Dupont_Deko.jpg", title: "Deko" },
-	{ src: "/assets/img/LebensArt_Dupont_Tischdeko.jpg", title: "Tischdeko" },
-	{ src: "/assets/img/LebensArt_Dupont_Trendschmuck.jpeg", title: "Trendschmuck" },
-	{ src: "/assets/img/LebensArt_Dupont_Gutschein.jpeg", title: "Gutscheine" },
-	{ src: "/assets/img/LebensArt_Dupont_Verpackung.jpg", title: "Verpackungsservice" },
-];
+const { t } = useI18n();
 </script>
 
 <style scoped lang="scss">

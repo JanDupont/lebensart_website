@@ -1,0 +1,77 @@
+{
+	"SidebarItem": {
+		"news": "News",
+		"about": "About",
+		"dhl": "DHL parcel store",
+		"sortiment": "Assortment",
+		"öffnungszeiten": "Opening hours"
+	},
+	"InfoBanner": {
+		"text1": "Valentine's Day 14 February 2023",
+		"text2": "many great gift ideas in the name of the rose"
+	},
+	"NewsPage": {
+		"topLine": "News",
+		"heading": "Neues",
+		"subtitle": "New deli items arrived!"
+	},
+	"AboutPage": {
+		"topLine": "Welcome",
+		"heading": "With us you will find the right gift for every occasion.",
+		"subtitle": "Spirits, liqueurs, wine, vinegars, oils, delicatessen, dips, spice blends, pasta, pesto, fruit spreads, tea, chocolates, which you will love to nibble yourself, give away or spoil.\n\nWith pleasure we compose gifts and gift baskets for you. Furthermore, you will find seasonal decorations for indoors and outdoors.\n\nOn 1.7.2008, we, Silvia and Martin Dupont, opened the 1st delicatessen-deco-gift store in Hermeskeil, Rosenweg 12."
+	},
+	"DHLPage": {
+		"topLine": "On the spot",
+		"heading": "DHL Parcel Shop",
+		"link": "https://www.dhl.de/en/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/filiale-empfang.html#:~:text=2.%20Address%20information",
+		"text1": "Hand in parcels, packages, returns",
+		"text2": "Buy stamps, parcel stamps",
+		"text3": "Print package/returns label",
+		"text4": "Send packages directly to us"
+	},
+	"SortimentPage": {
+		"1": { "src": "/assets/img/LebensArt_Dupont_Brände.jpg", "title": "Spirits - Brandies - Liqueurs" },
+		"2": { "src": "/assets/img/LebensArt_Dupont_Feinkost.jpg", "title": "Delicatessen" },
+		"3": { "src": "/assets/img/LebensArt_Dupont_Essig_Öl.jpg", "title": "Vinegar - Oil" },
+		"4": { "src": "/assets/img/LebensArt_Dupont_Nudeln.jpg", "title": "Pasta - Pesto" },
+		"5": { "src": "/assets/img/LebensArt_Dupont_Dips.jpg", "title": "Dips - spice mixtures" },
+		"6": { "src": "/assets/img/LebensArt_Dupont_Senf.jpg", "title": "Mustards - Mustard mill" },
+		"7": { "src": "/assets/img/LebensArt_Dupont_Pralinen.jpeg", "title": "Pralines - chocolates" },
+		"8": { "src": "/assets/img/LebensArt_Dupont_Tee.jpg", "title": "Tea - Accessories" },
+		"9": { "src": "/assets/img/LebensArt_Dupont_Spueltuch.jpg", "title": "sustainable - vegan" },
+		"10": { "src": "/assets/img/LebensArt_Dupont_Deko.jpg", "title": "Decoration" },
+		"11": { "src": "/assets/img/LebensArt_Dupont_Tischdeko.jpg", "title": "Table decoration" },
+		"12": { "src": "/assets/img/LebensArt_Dupont_Trendschmuck.jpeg", "title": "Trend jewelry" },
+		"13": { "src": "/assets/img/LebensArt_Dupont_Gutschein.jpeg", "title": "Vouchers" },
+		"14": { "src": "/assets/img/LebensArt_Dupont_Verpackung.jpg", "title": "Packing service" }
+	},
+	"OpeningHoursPage": {
+		"topLine": "HOW TO REACH US",
+		"heading": "Opening Hours",
+		"days": {
+			"1": {
+				"short": "Mo:",
+				"time": "closed"
+			},
+			"2": {
+				"short": "Tue, Thu, Fr: ",
+				"time": "10-11:30am & 3-7pm"
+			},
+			"3": {
+				"short": "Wed:",
+				"time": "10-11:30am"
+			},
+			"4": {
+				"short": "Sa:",
+				"time": "10am-12"
+			}
+		},
+		"phone": "Phone: 06503/8933",
+		"maps": {
+			"headline": "Use Google Maps",
+			"info1": "Relevant data is forwarded to ",
+			"info2": "Google for this purpose",
+			"action": "Agree"
+		}
+	}
+}

@@ -4,12 +4,12 @@
 			<div v-if="!showMap" class="öffnungszeitenMap d-flex align-center justify-center">
 				<img src="../assets/img/fakeMap.png" class="öffnungszeitenMap" style="filter: brightness(17%)" />
 				<div style="position: absolute">
-					<div class="text-h5 text-white">Google Maps verwenden</div>
+					<div class="text-h5 text-white">{{ t("OpeningHoursPage.maps.headline") }}</div>
 					<br />
-					<div class="text-white">Dabei werden dazu relevante Daten</div>
-					<div class="text-white">an Google weitergeleitet</div>
+					<div class="text-white">{{ t("OpeningHoursPage.maps.info1") }}</div>
+					<div class="text-white">{{ t("OpeningHoursPage.maps.info2") }}</div>
 					<br />
-					<v-btn color="success" @click="showMap = !showMap">Zustimmen</v-btn>
+					<v-btn color="success" @click="showMap = !showMap">{{ t("OpeningHoursPage.maps.action") }}</v-btn>
 				</div>
 			</div>
 
@@ -28,19 +28,19 @@
 
 		<template v-slot:right_and_top>
 			<div align="left" style="min-width: 300px; max-width: 50%">
-				<div class="topLine">{{ topLine }}</div>
-				<div class="heading">{{ heading }}</div>
+				<div class="topLine">{{ t("OpeningHoursPage.topLine") }}</div>
+				<div class="heading">{{ t("OpeningHoursPage.heading") }}</div>
 				<div class="text-white">
-					<strong>Mo: </strong> geschlossen
+					<strong>{{ t("OpeningHoursPage.days.1.short") }} </strong> {{ t("OpeningHoursPage.days.1.time") }}
 					<br />
-					<strong>Di, Do, Fr: </strong> 10.00-11:30 & 15:00-19:00 Uhr
+					<strong>{{ t("OpeningHoursPage.days.2.short") }} </strong> {{ t("OpeningHoursPage.days.2.time") }}
 					<br />
-					<strong>Mi: </strong>10:00-11:30 Uhr
+					<strong>{{ t("OpeningHoursPage.days.3.short") }} </strong>{{ t("OpeningHoursPage.days.3.time") }}
 					<br />
-					<strong>Sa: </strong>10:00-12:00 Uhr
+					<strong>{{ t("OpeningHoursPage.days.4.short") }} </strong>{{ t("OpeningHoursPage.days.4.time") }}
 					<br />
 					<br />
-					<strong>Tel.: 06503/8933</strong>
+					<strong>{{ t("OpeningHoursPage.phone") }}</strong>
 				</div>
 			</div>
 		</template>
@@ -54,9 +54,9 @@
 import { ref } from "vue";
 import DuoContentGrid from "./baseComponents/Duo_Content_Grid.vue";
 import WaveDivider from "./WaveDivider.vue";
+import { useI18n } from "vue-i18n";
 
-let topLine = "SO ERREICHEN SIE UNS";
-let heading = "Öffnungszeiten";
+const { t } = useI18n();
 
 const showMap = ref<boolean>(false);
 </script>

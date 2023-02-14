@@ -10,9 +10,9 @@
 
 		<template v-slot:right_and_top>
 			<div align="left" style="min-width: 300px; max-width: 50%">
-				<div class="topLine">{{ topLine }}</div>
-				<div class="heading text-black">{{ heading }}</div>
-				<div class="subtitle text-black" style="white-space: pre-wrap">{{ subtitle }}</div>
+				<div class="topLine">{{ t("AboutPage.topLine") }}</div>
+				<div class="heading text-black">{{ t("AboutPage.heading") }}</div>
+				<div class="subtitle text-black" style="white-space: pre-wrap">{{ t("AboutPage.subtitle") }}</div>
 			</div>
 		</template>
 
@@ -25,10 +25,9 @@
 <script setup lang="ts">
 import DuoContentGrid from "./baseComponents/Duo_Content_Grid.vue";
 import WaveDivider from "../components/WaveDivider.vue";
+import { useI18n } from "vue-i18n";
 
-const topLine = "Herzlich Willkommen";
-const heading = "Bei uns finden Sie für jeden Anlass das passende Geschenk.";
-const subtitle = `Spirituosen, Liköre, Wein, Essige, Öle, Feinkost, Dips, Gewürzmischungen, Pasta, Pesto, Fruchtaufstriche, Tee, Pralinen, Schokoladen, die Sie lieben werden zum selbst vernaschen, verschenken oder verwöhnen.\n\nGerne stellen wir für Sie Geschenke und Geschenkkörbe zusammen. Des Weiteren finden Sie jahreszeitliche Deko für innen und außen.\n\nAm 1.7.2008 haben wir, Silvia und Martin Dupont, das 1. Feinkost-Deko-Geschenke-Geschäft in Hermeskeil, Rosenweg 12, eröffnet.`;
+const { t } = useI18n();
 </script>
 
 <style scoped>
