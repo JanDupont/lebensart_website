@@ -1,7 +1,7 @@
 <template>
 	<v-card class="infoBannerCard" color="black">
 		<!-- cover -->
-		<v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_Valentinstag.jpeg"></v-img>
+		<v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_Frühling.jpg"></v-img>
 		<div class="ma-2 text-h6 text-white">
 			{{ t("InfoBanner.text1") }}
 			<br />
