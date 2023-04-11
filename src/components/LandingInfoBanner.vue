@@ -3,13 +3,9 @@
 		<!-- cover -->
 		<!-- <v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_Frühling.jpg"></v-img> -->
 		<div class="ma-2 text-h6 text-white">
-			<span style="color: rgb(204, 16, 16)">{{ t("InfoBanner.text1") }}</span>
+			{{ t("InfoBanner.text1") }}
 			<br />
 			{{ t("InfoBanner.text2") }}
-			<br />
-			{{ t("InfoBanner.text3") }}
-			<br />
-			{{ t("InfoBanner.text4") }}
 		</div>
 	</v-card>
 </template>
