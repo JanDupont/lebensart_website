@@ -6,7 +6,7 @@
 			<!-- {{ t("InfoBanner.text1") }}
 			<br />
 			{{ t("InfoBanner.text2") }} -->
-			folgende <span style="color: rgb(204, 16, 16)">Öffnungszeiten</span> in der Woche vom 4-8 Juli:
+			folgende <span style="color: rgb(204, 16, 16)">Öffnungszeiten</span> in der Stadtwoche 🎡🎢 10.-15.7.23:
 			<br />
 			<v-row v-for="tag in öffnungszeiten" class="ma-0 mt-1">
 				<v-col cols="12" md="2" class="pa-0" style="color: rgb(204, 16, 16)">
