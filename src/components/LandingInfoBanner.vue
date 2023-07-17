@@ -6,7 +6,7 @@
 			<!-- {{ t("InfoBanner.text1") }}
 			<br />
 			{{ t("InfoBanner.text2") }} -->
-			folgende <span style="color: rgb(204, 16, 16)">Öffnungszeiten</span> in der Stadtwoche 🎡🎢 10.-15.7.23:
+			folgende <span style="color: rgb(204, 16, 16)">Öffnungszeiten</span> vom 18. Juli - 22. Juli:
 			<br />
 			<v-row v-for="tag in öffnungszeiten" class="ma-0 mt-1">
 				<v-col cols="12" md="2" class="pa-0" style="color: rgb(204, 16, 16)">
@@ -16,6 +16,11 @@
 					{{ tag.öffnungszeiten }}
 				</v-col>
 			</v-row>
+			oder Tel: 06503/8933
+			<br />
+			❤️ Dank für euer Verständnis
+			<br />
+			Silvia Dupont
 		</div>
 	</v-card>
 </template>
@@ -36,7 +41,7 @@ const öffnungszeiten = [
 	},
 	{
 		tag: "Do:",
-		öffnungszeiten: "10-12 Uhr",
+		öffnungszeiten: "10-12 Uhr & 17-19 Uhr",
 	},
 	{
 		tag: "Fr:",
