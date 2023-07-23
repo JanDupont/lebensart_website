@@ -6,7 +6,7 @@
 			<!-- {{ t("InfoBanner.text1") }}
 			<br />
 			{{ t("InfoBanner.text2") }} -->
-			folgende <span style="color: rgb(204, 16, 16)">Öffnungszeiten</span> vom 18. Juli - 22. Juli:
+			folgende <span style="color: rgb(204, 16, 16)">Öffnungszeiten</span> vom 25. Juli - 29. Juli:
 			<br />
 			<v-row v-for="tag in öffnungszeiten" class="ma-0 mt-1">
 				<v-col cols="12" md="2" class="pa-0" style="color: rgb(204, 16, 16)">
@@ -33,7 +33,7 @@ const { t } = useI18n();
 const öffnungszeiten = [
 	{
 		tag: "Di:",
-		öffnungszeiten: "10-12 Uhr",
+		öffnungszeiten: "10-12 Uhr & 17-19 Uhr",
 	},
 	{
 		tag: "Mi:",
