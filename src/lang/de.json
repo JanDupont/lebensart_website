@@ -55,11 +55,11 @@
 			},
 			"2": {
 				"short": "Di, Do, Fr: ",
-				"time": "10.00-11:30 & 15:00-19:00 Uhr"
+				"time": "10:00-12:00 & 17:00-19:00 Uhr"
 			},
 			"3": {
 				"short": "Mi:",
-				"time": "10:00-11:30 Uhr"
+				"time": "geschlossen"
 			},
 			"4": {
 				"short": "Sa:",
