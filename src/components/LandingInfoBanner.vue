@@ -3,7 +3,8 @@
 		<!-- cover -->
 		<!-- <v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_Frühling.jpg"></v-img> -->
 		<div class="ma-2 text-h6 text-white">
-			am <span style="color: rgb(204, 16, 16)">Donnerstag</span>, den 7.12.2023 nur bis <span style="color: rgb(204, 16, 16)">17:30 Uhr</span> geöffnet.
+			Einen schönen & gemütlichen Advent. Zusätzlich geöffnet vor Weihnachten: jeden Mittwoch von 10:00-11:30 Uhr.
+			Schaut gerne vorbei
 		</div>
 	</v-card>
 </template>
