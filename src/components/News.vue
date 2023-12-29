@@ -1,7 +1,10 @@
 <template>
 	<DuoContentGrid bgColor="#010606" style="margin-top: 12px">
 		<template v-slot:left_and_bottom>
-			<img style="max-height: 500px" src="../assets/img/LebensArt_Dupont_Hermeskeil_Adventsausstellung.jpg" />
+			<img
+				style="max-height: 500px; border-radius: 10px"
+				src="../assets/img/LebensArt_Dupont_Hermeskeil_Neujahr.jpg"
+			/>
 		</template>
 
 		<template v-slot:right_and_top>

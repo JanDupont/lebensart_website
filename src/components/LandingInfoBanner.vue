@@ -3,8 +3,9 @@
 		<!-- cover -->
 		<!-- <v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_Frühling.jpg"></v-img> -->
 		<div class="ma-2 text-h6 text-white">
-			Einen schönen & gemütlichen Advent. Zusätzlich geöffnet vor Weihnachten: jeden Mittwoch von 10:00-11:30 Uhr.
-			Schaut gerne vorbei
+			Di: 02.01.23 geschlossen 
+			<br />
+			Mi: 03.01.23 geöffnet
 		</div>
 	</v-card>
 </template>
