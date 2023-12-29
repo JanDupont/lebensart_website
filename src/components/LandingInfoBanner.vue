@@ -5,7 +5,7 @@
 		<div class="ma-2 text-h6 text-white">
 			Di: 02.01.23 geschlossen 
 			<br />
-			Mi: 03.01.23 geöffnet
+			Mi: 03.01.23 von 10-11:30 geöffnet
 		</div>
 	</v-card>
 </template>
