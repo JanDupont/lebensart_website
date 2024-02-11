@@ -2,7 +2,7 @@
 	<DuoContentGrid bgColor="#010606" style="margin-top: 12px">
 		<template v-slot:left_and_bottom>
 			<img
-				style="max-height: 500px; border-radius: 10px"
+				style="max-height: 500px; border-radius: 10px; max-width: 100%"
 				src="../assets/img/LebensArt_Dupont_Hermeskeil_Neujahr.jpg"
 			/>
 		</template>

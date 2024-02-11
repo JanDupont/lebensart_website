@@ -3,9 +3,15 @@
 		<!-- cover -->
 		<!-- <v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_Frühling.jpg"></v-img> -->
 		<div class="ma-2 text-h6 text-white">
-			Di: 02.01.23 geschlossen 
+			<span style="color: #cc1010">Rosenmontag:</span> 12.04.24 geschlossen
 			<br />
-			Mi: 03.01.23 von 10-11:30 geöffnet
+			<span style="color: #cc1010">Faschingsdienstag:</span> 13:04.24 15-19 Uhr
+			<br />
+			<span style="color: #cc1010">Aschermittwoch/Valentinstag:</span> 14.04.24 15-19 Uhr
+			<br />
+			<span style="color: #cc1010">Do-Sa:</span> wie bisher
+			<br />
+			tel. Vorbestellungen 06503/8933
 		</div>
 	</v-card>
 </template>
