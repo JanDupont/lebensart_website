@@ -3,7 +3,13 @@
 		<!-- cover -->
 		<!-- <v-img class="infoBannerCardImg" src="/assets/img/LebensArt_Dupont_Hermeskeil_Frühling.jpg"></v-img> -->
 		<div class="ma-2 text-h6 text-white">
-			<span style="color: #cc1010">Donnerstag:</span> 7.3.24 geöffnet 15-18Uhr
+			Öffnungszeiten Ostern:
+			<br />
+			<span style="color: #cc1010">Di & Do:</span> 10-11:30, 15-19 Uhr
+			<br />
+			<span style="color: #cc1010">Mi:</span> 15-19 Uhr
+			<br />
+			<span style="color: #cc1010">Sa:</span> 10-13 Uhr
 		</div>
 	</v-card>
 </template>
