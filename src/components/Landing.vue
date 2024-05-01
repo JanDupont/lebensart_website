@@ -4,12 +4,21 @@
 		<WaveDivider :divider-color="'#010606'" :top="false" />
 		<img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.jpg" class="heroImg" />
 		<!-- <InfoBanner /> -->
+		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
+			Freitag, 03 Mai geschlossen!
+			<template #actions>
+				<v-btn icon="mdi-close" @click="snackbar = false"> </v-btn>
+			</template>
+		</v-snackbar>
 	</div>
 </template>
 
 <script setup lang="ts">
 import WaveDivider from "../components/WaveDivider.vue";
 import InfoBanner from "./LandingInfoBanner.vue";
+
+import { ref } from "vue";
+const snackbar = ref(true);
 </script>
 
 <style>
