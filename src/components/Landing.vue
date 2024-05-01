@@ -5,7 +5,11 @@
 		<img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.jpg" class="heroImg" />
 		<!-- <InfoBanner /> -->
 		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
-			Freitag, 03 Mai geschlossen!
+			Freitag, 3. Mai 2024 geöffnet
+			<br />
+			10:00-11:30
+			<br />
+			Nachmittag geschlossen
 			<template #actions>
 				<v-btn icon="mdi-close" @click="snackbar = false"> </v-btn>
 			</template>
