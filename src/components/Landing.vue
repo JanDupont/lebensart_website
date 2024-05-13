@@ -4,14 +4,14 @@
 		<WaveDivider :divider-color="'#010606'" :top="false" />
 		<img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.jpg" class="heroImg" />
 		<!-- <InfoBanner /> -->
-		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
+		<!-- <v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
 			Mittwoch, 8. Mai 2024 geöffnet
 			<br />
 			10:00-11:30 & 15:00-19:00 Uhr
 			<template #actions>
 				<v-btn icon="mdi-close" @click="snackbar = false"> </v-btn>
 			</template>
-		</v-snackbar>
+		</v-snackbar> -->
 	</div>
 </template>
 
