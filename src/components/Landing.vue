@@ -5,7 +5,7 @@
 		<img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.jpg" class="heroImg" />
 		<!-- <InfoBanner /> -->
 		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
-			Ab 5. Juni 2024 krankheitsbedingt 2 Wochen geschlossen
+			Do, Fr, Sa (29.06) je von 10:00 - 12:00 Uhr geöffnet
 			<template #actions>
 				<v-btn icon="mdi-close" @click="snackbar = false"> </v-btn>
 			</template>
