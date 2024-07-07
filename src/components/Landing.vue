@@ -7,7 +7,9 @@
 		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
 			<h2>Öffnungszeiten 9-13. Juli 2024</h2>
 			<br />
-			Di & Fr: 10-12 Uhr & 15-18Uhr
+			Di: 10-12 Uhr
+			<br />
+			Do & Fr: 10-12 Uhr & 15-18Uhr
 			<br />
 			Sa: 10-12 Uhr
 			<template #actions>
