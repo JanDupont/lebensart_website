@@ -5,7 +5,7 @@
 		<img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.jpg" class="heroImg" />
 		<!-- <InfoBanner /> -->
 		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
-			<h2>Öffnungszeiten 9-13. Juli 2024</h2>
+			<h2>Öffnungszeiten Juli & August 2024</h2>
 			<br />
 			Di: 10-12 Uhr
 			<br />
