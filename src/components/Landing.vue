@@ -2,10 +2,10 @@
 	<div class="heroContainer">
 		<WaveDivider :divider-color="'#000000'" :top="true" />
 		<WaveDivider :divider-color="'#010606'" :top="false" />
-		<img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.jpg" class="heroImg" />
+		<img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.png" class="heroImg" />
 		<!-- <InfoBanner /> -->
 		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
-			<h2>Öffnungszeiten August & September 2024</h2>
+			<h2>Öffnungszeiten September 2024</h2>
 			<br />
 			Di: 10-12 Uhr
 			<br />
