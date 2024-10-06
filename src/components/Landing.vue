@@ -9,8 +9,6 @@
 			<br />
 			Di: 10-12 Uhr
 			<br />
-			Mi: 10-12 Uhr & 15-18Uhr
-			<br />
 			Do & Fr: 10-12 Uhr & 15-18Uhr
 			<br />
 			Sa: 10-12 Uhr
