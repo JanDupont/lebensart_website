@@ -7,7 +7,7 @@
 		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
 			<h2>Öffnungszeiten September 2024</h2>
 			<br />
-			Di: 10-12 Uhr
+			Di & Mi: 10-12 Uhr
 			<br />
 			Do & Fr: 10-12 Uhr & 15-18Uhr
 			<br />
