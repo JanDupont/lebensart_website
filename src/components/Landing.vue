@@ -4,18 +4,19 @@
 		<WaveDivider :divider-color="'#010606'" :top="false" />
 		<img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.png" class="heroImg" />
 		<!-- <InfoBanner /> -->
-		<!-- <v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
-			<h2>Öffnungszeiten Oktober 2024</h2>
+		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
+			<h2>Öffnungszeiten Weihnachten</h2>
+			Mo 23.12: 10-12 Uhr & 15-18 Uhr
 			<br />
-			Di & Mi: 10-12 Uhr
+			Heiligabend: 10-12 Uhr
 			<br />
-			Do & Fr: 10-12 Uhr & 15-18Uhr
+			Fr 27.12: 10-12 Uhr & 15-18 Uhr
 			<br />
-			Sa: 10-12 Uhr
+			Sa 28.12: 10-12 Uhr
 			<template #actions>
 				<v-btn icon="mdi-close" @click="snackbar = false"> </v-btn>
 			</template>
-		</v-snackbar> -->
+		</v-snackbar>
 	</div>
 </template>
 
