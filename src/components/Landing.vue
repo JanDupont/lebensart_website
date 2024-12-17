@@ -6,6 +6,7 @@
 		<!-- <InfoBanner /> -->
 		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
 			<h2>Öffnungszeiten Weihnachten</h2>
+			<br />
 			Mo 23.12: 10-12 Uhr & 15-18 Uhr
 			<br />
 			Heiligabend: 10-12 Uhr
