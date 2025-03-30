@@ -3,7 +3,7 @@
 		<template v-slot:left_and_bottom>
 			<img
 				style="max-height: 500px; border-radius: 10px; max-width: 100%"
-				src="../assets/img/LebensArt_Hermeskeil_Dupont_News.png"
+				src="../assets/img/LebensArt_Hermeskeil_Dupont_News.jpg"
 			/>
 		</template>
 
@@ -39,6 +39,7 @@ const { t } = useI18n();
 	font-size: 18px;
 	line-height: 24px;
 	color: white;
+	white-space: pre-line;
 }
 .heading {
 	margin-bottom: 24px;
