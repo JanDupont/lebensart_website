@@ -3,7 +3,7 @@
 		<template v-slot:left_and_bottom>
 			<img
 				style="max-height: 500px; border-radius: 10px; max-width: 100%"
-				src="../assets/img/LebensArt_Hermeskeil_Dupont_News.jpg"
+				src="../assets/img/LebensArt_Hermeskeil_Dupont_news.jpg"
 			/>
 		</template>
 
