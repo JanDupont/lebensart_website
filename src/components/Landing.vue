@@ -4,7 +4,7 @@
 		<WaveDivider :divider-color="'#010606'" :top="false" />
 		<img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.png" class="heroImg" />
 		<!-- <InfoBanner /> -->
-		<v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
+		<!-- <v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
 			<h2>Aktionstage Bratwurstsenf</h2>
 			Donnerstag & Freitag (3-4 April) 10-12 & 15-18 Uhr
 			<br />
@@ -12,7 +12,7 @@
 			<template #actions>
 				<v-btn icon="mdi-close" @click="snackbar = false"> </v-btn>
 			</template>
-		</v-snackbar>
+		</v-snackbar> -->
 	</div>
 </template>
 
