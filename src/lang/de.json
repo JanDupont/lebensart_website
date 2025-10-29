@@ -12,8 +12,8 @@
 	},
 	"NewsPage": {
 		"topLine": "News",
-		"heading": "Sommerzeit ☀️",
-		"subtitle": "Leckere Dips, Essig& Öl, Sommerliköre, Sommerliche Deko, tolle Hochzeitsgeschenke"
+		"heading": "Advents- u. Weihnachtsausstellung 2025 ist eröffnet",
+		"subtitle": ""
 	},
 	"AboutPage": {
 		"topLine": "Herzlich Willkommen",
@@ -30,20 +30,62 @@
 		"text4": "Pakete direkt zu uns senden"
 	},
 	"SortimentPage": {
-		"1": { "src": "/assets/img/LebensArt_Dupont_Brände.jpg", "title": "Spirituosen - Brände - Liköre" },
-		"2": { "src": "/assets/img/LebensArt_Dupont_Feinkost.jpg", "title": "Feinkost" },
-		"3": { "src": "/assets/img/LebensArt_Dupont_Essig_Öl.jpg", "title": "Essig - Öl" },
-		"4": { "src": "/assets/img/LebensArt_Dupont_Nudeln.jpg", "title": "Pasta - Pesto" },
-		"5": { "src": "/assets/img/LebensArt_Dupont_Dips.jpg", "title": "Dips - Gewürzmischungen" },
-		"6": { "src": "/assets/img/LebensArt_Dupont_Senf.jpg", "title": "Senfe - Senfmühle" },
-		"7": { "src": "/assets/img/LebensArt_Dupont_Pralinen.jpeg", "title": "Pralinen - Schokoladen" },
-		"8": { "src": "/assets/img/LebensArt_Dupont_Tee.jpg", "title": "Tee - Zubehör" },
-		"9": { "src": "/assets/img/LebensArt_Dupont_Spueltuch.jpg", "title": "nachhaltig - vegan" },
-		"10": { "src": "/assets/img/LebensArt_Dupont_Deko.jpg", "title": "Deko" },
-		"11": { "src": "/assets/img/LebensArt_Dupont_Tischdeko.jpg", "title": "Tischdeko" },
-		"12": { "src": "/assets/img/LebensArt_Dupont_Trendschmuck.jpeg", "title": "Trendschmuck" },
-		"13": { "src": "/assets/img/LebensArt_Dupont_Gutschein.jpeg", "title": "Gutscheine" },
-		"14": { "src": "/assets/img/LebensArt_Dupont_Verpackung.jpg", "title": "Verpackungsservice" }
+		"1": {
+			"src": "/assets/img/LebensArt_Dupont_Brände.jpg",
+			"title": "Spirituosen - Brände - Liköre"
+		},
+		"2": {
+			"src": "/assets/img/LebensArt_Dupont_Feinkost.jpg",
+			"title": "Feinkost"
+		},
+		"3": {
+			"src": "/assets/img/LebensArt_Dupont_Essig_Öl.jpg",
+			"title": "Essig - Öl"
+		},
+		"4": {
+			"src": "/assets/img/LebensArt_Dupont_Nudeln.jpg",
+			"title": "Pasta - Pesto"
+		},
+		"5": {
+			"src": "/assets/img/LebensArt_Dupont_Dips.jpg",
+			"title": "Dips - Gewürzmischungen"
+		},
+		"6": {
+			"src": "/assets/img/LebensArt_Dupont_Senf.jpg",
+			"title": "Senfe - Senfmühle"
+		},
+		"7": {
+			"src": "/assets/img/LebensArt_Dupont_Pralinen.jpeg",
+			"title": "Pralinen - Schokoladen"
+		},
+		"8": {
+			"src": "/assets/img/LebensArt_Dupont_Tee.jpg",
+			"title": "Tee - Zubehör"
+		},
+		"9": {
+			"src": "/assets/img/LebensArt_Dupont_Spueltuch.jpg",
+			"title": "nachhaltig - vegan"
+		},
+		"10": {
+			"src": "/assets/img/LebensArt_Dupont_Deko.jpg",
+			"title": "Deko"
+		},
+		"11": {
+			"src": "/assets/img/LebensArt_Dupont_Tischdeko.jpg",
+			"title": "Tischdeko"
+		},
+		"12": {
+			"src": "/assets/img/LebensArt_Dupont_Trendschmuck.jpeg",
+			"title": "Trendschmuck"
+		},
+		"13": {
+			"src": "/assets/img/LebensArt_Dupont_Gutschein.jpeg",
+			"title": "Gutscheine"
+		},
+		"14": {
+			"src": "/assets/img/LebensArt_Dupont_Verpackung.jpg",
+			"title": "Verpackungsservice"
+		}
 	},
 	"OpeningHoursPage": {
 		"topLine": "SO ERREICHEN SIE UNS",
