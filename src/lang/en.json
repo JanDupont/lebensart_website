@@ -12,8 +12,19 @@
 	},
 	"NewsPage": {
 		"topLine": "News",
-		"heading": "Advent and Christmas exhibition 2025 is opened",
-		"subtitle": ""
+		"heading": "Advent exhibition",
+		"dates": [
+			{
+				"day": "Friday",
+				"date": "21.11.2025",
+				"time": "10:00 - 18:00"
+			},
+			{
+				"day": "Saturday",
+				"date": "22.12.2025",
+				"time": "10:00 - 17:00"
+			}
+		]
 	},
 	"AboutPage": {
 		"topLine": "Welcome",
@@ -30,20 +41,62 @@
 		"text4": "Send packages directly to us"
 	},
 	"SortimentPage": {
-		"1": { "src": "/assets/img/LebensArt_Dupont_Brände.jpg", "title": "Spirits - Brandies - Liqueurs" },
-		"2": { "src": "/assets/img/LebensArt_Dupont_Feinkost.jpg", "title": "Delicatessen" },
-		"3": { "src": "/assets/img/LebensArt_Dupont_Essig_Öl.jpg", "title": "Vinegar - Oil" },
-		"4": { "src": "/assets/img/LebensArt_Dupont_Nudeln.jpg", "title": "Pasta - Pesto" },
-		"5": { "src": "/assets/img/LebensArt_Dupont_Dips.jpg", "title": "Dips - spice mixtures" },
-		"6": { "src": "/assets/img/LebensArt_Dupont_Senf.jpg", "title": "Mustards - Mustard mill" },
-		"7": { "src": "/assets/img/LebensArt_Dupont_Pralinen.jpeg", "title": "Pralines - chocolates" },
-		"8": { "src": "/assets/img/LebensArt_Dupont_Tee.jpg", "title": "Tea - Accessories" },
-		"9": { "src": "/assets/img/LebensArt_Dupont_Spueltuch.jpg", "title": "sustainable - vegan" },
-		"10": { "src": "/assets/img/LebensArt_Dupont_Deko.jpg", "title": "Decoration" },
-		"11": { "src": "/assets/img/LebensArt_Dupont_Tischdeko.jpg", "title": "Table decoration" },
-		"12": { "src": "/assets/img/LebensArt_Dupont_Trendschmuck.jpeg", "title": "Trend jewelry" },
-		"13": { "src": "/assets/img/LebensArt_Dupont_Gutschein.jpeg", "title": "Vouchers" },
-		"14": { "src": "/assets/img/LebensArt_Dupont_Verpackung.jpg", "title": "Packing service" }
+		"1": {
+			"src": "/assets/img/LebensArt_Dupont_Brände.jpg",
+			"title": "Spirits - Brandies - Liqueurs"
+		},
+		"2": {
+			"src": "/assets/img/LebensArt_Dupont_Feinkost.jpg",
+			"title": "Delicatessen"
+		},
+		"3": {
+			"src": "/assets/img/LebensArt_Dupont_Essig_Öl.jpg",
+			"title": "Vinegar - Oil"
+		},
+		"4": {
+			"src": "/assets/img/LebensArt_Dupont_Nudeln.jpg",
+			"title": "Pasta - Pesto"
+		},
+		"5": {
+			"src": "/assets/img/LebensArt_Dupont_Dips.jpg",
+			"title": "Dips - spice mixtures"
+		},
+		"6": {
+			"src": "/assets/img/LebensArt_Dupont_Senf.jpg",
+			"title": "Mustards - Mustard mill"
+		},
+		"7": {
+			"src": "/assets/img/LebensArt_Dupont_Pralinen.jpeg",
+			"title": "Pralines - chocolates"
+		},
+		"8": {
+			"src": "/assets/img/LebensArt_Dupont_Tee.jpg",
+			"title": "Tea - Accessories"
+		},
+		"9": {
+			"src": "/assets/img/LebensArt_Dupont_Spueltuch.jpg",
+			"title": "sustainable - vegan"
+		},
+		"10": {
+			"src": "/assets/img/LebensArt_Dupont_Deko.jpg",
+			"title": "Decoration"
+		},
+		"11": {
+			"src": "/assets/img/LebensArt_Dupont_Tischdeko.jpg",
+			"title": "Table decoration"
+		},
+		"12": {
+			"src": "/assets/img/LebensArt_Dupont_Trendschmuck.jpeg",
+			"title": "Trend jewelry"
+		},
+		"13": {
+			"src": "/assets/img/LebensArt_Dupont_Gutschein.jpeg",
+			"title": "Vouchers"
+		},
+		"14": {
+			"src": "/assets/img/LebensArt_Dupont_Verpackung.jpg",
+			"title": "Packing service"
+		}
 	},
 	"OpeningHoursPage": {
 		"topLine": "HOW TO REACH US",
