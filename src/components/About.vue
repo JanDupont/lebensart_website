@@ -5,7 +5,13 @@
         </template>
 
         <template #left_and_bottom>
-            <img class="aboutImg" src="../assets/img/Gift.svg" />
+            <img
+                class="aboutImg"
+                src="../assets/img/Gift.svg"
+                :alt="t('AboutPage.heading')"
+                loading="lazy"
+                decoding="async"
+            />
         </template>
 
         <template #right_and_top>

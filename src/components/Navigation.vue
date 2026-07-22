@@ -20,7 +20,7 @@
             class="app-bar-item hidden-md-and-down"
             @click="jump(item)"
         >
-            <v-icon class="mr-1">{{ item.icon }}</v-icon>
+            <v-icon :icon="item.icon" class="mr-1" />
             <div class="text-h6">{{ t('SidebarItem.' + item.value) }}</div>
         </v-btn>
 
@@ -50,6 +50,7 @@
 import { onMounted, ref } from 'vue';
 import LanguageToggle from './baseComponents/LanguageToggle.vue';
 import { useI18n } from 'vue-i18n';
+import { mdiCalendarClock, mdiGift, mdiNewspaper, mdiPackageVariant, mdiShopping } from '@mdi/js';
 
 const { t } = useI18n();
 
@@ -62,27 +63,27 @@ type SidebarItem = {
 };
 const sidebarItems = ref<SidebarItem[]>([
     {
-        icon: 'mdi-newspaper',
+        icon: mdiNewspaper,
         value: 'news',
         active: false,
     },
     {
-        icon: 'mdi-gift',
+        icon: mdiGift,
         value: 'about',
         active: false,
     },
     {
-        icon: 'mdi-package-variant',
+        icon: mdiPackageVariant,
         value: 'dhl',
         active: false,
     },
     {
-        icon: 'mdi-shopping',
+        icon: mdiShopping,
         value: 'sortiment',
         active: false,
     },
     {
-        icon: 'mdi-calendar-clock',
+        icon: mdiCalendarClock,
         value: 'öffnungszeiten',
         active: false,
     },

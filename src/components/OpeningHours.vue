@@ -3,9 +3,14 @@
         <template #left_and_bottom>
             <div v-if="!showMap" class="öffnungszeitenMap d-flex align-center justify-center">
                 <img
-                    src="../assets/img/fakeMap.png"
+                    src="../assets/img/fakeMap.webp"
+                    alt=""
                     class="öffnungszeitenMap"
                     style="filter: brightness(17%)"
+                    width="400"
+                    height="400"
+                    loading="lazy"
+                    decoding="async"
                 />
                 <div style="position: absolute">
                     <div class="text-h5 text-white">{{ t('OpeningHoursPage.maps.headline') }}</div>
@@ -44,9 +49,12 @@
                         class="hours-row special"
                     >
                         <div class="day-col">
-                            <v-icon color="#cc1010" size="small" class="mr-2"
-                                >mdi-calendar-alert</v-icon
-                            >
+                            <v-icon
+                                :icon="mdiCalendarAlert"
+                                color="#cc1010"
+                                size="small"
+                                class="mr-2"
+                            />
                             {{ item.label }}
                         </div>
                         <div class="time-col">{{ item.time }}</div>
@@ -63,7 +71,7 @@
 
                 <div class="phone-row">
                     <a :href="`tel:${phoneNumberRaw}`" class="phone-link">
-                        <v-icon color="white" class="mr-2">mdi-phone</v-icon>
+                        <v-icon :icon="mdiPhone" color="white" class="mr-2" />
                         {{ t('OpeningHoursPage.phone') }}
                     </a>
                 </div>
@@ -80,6 +88,7 @@ import { ref, computed } from 'vue';
 import DuoContentGrid from './baseComponents/Duo_Content_Grid.vue';
 import WaveDivider from './WaveDivider.vue';
 import { useI18n } from 'vue-i18n';
+import { mdiCalendarAlert, mdiPhone } from '@mdi/js';
 
 const { t, tm } = useI18n();
 

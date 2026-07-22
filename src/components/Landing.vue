@@ -2,7 +2,15 @@
     <div class="heroContainer">
         <WaveDivider :divider-color="'#000000'" :top="true" />
         <WaveDivider :divider-color="'#010606'" :top="false" />
-        <img src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.png" class="heroImg" />
+        <img
+            src="../assets/img/LebensArt_Dupont_Hermeskeil_Header.webp"
+            alt="LebensArt"
+            class="heroImg"
+            width="600"
+            height="959"
+            decoding="async"
+            fetchpriority="high"
+        />
         <!-- <InfoBanner /> -->
         <!-- <v-snackbar v-model="snackbar" color="info" :timeout="-1" multi-line location="top" style="margin-top: 100px">
 			<h2>Samstag, 6. September 2025 Geschlossen</h2>

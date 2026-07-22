@@ -1,7 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import vuetify from './plugins/vuetify';
-import { loadFonts } from './plugins/webfontloader';
 import router from './routers/index.js';
 
 // internationalization
@@ -17,7 +16,5 @@ const i18n = createI18n({
     locale: 'de',
     messages,
 });
-
-void loadFonts();
 
 createApp(App).use(router).use(vuetify).use(i18n).mount('#app');

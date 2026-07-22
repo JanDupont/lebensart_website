@@ -3,7 +3,12 @@
         <template #left_and_bottom>
             <img
                 style="max-height: 500px; border-radius: 10px; max-width: 100%"
-                src="../assets/img/LebensArt_Hermeskeil_Dupont_news.jpeg"
+                src="../assets/img/LebensArt_Hermeskeil_Dupont_news.webp"
+                :alt="t('NewsPage.heading')"
+                width="270"
+                height="385"
+                loading="lazy"
+                decoding="async"
             />
         </template>
 

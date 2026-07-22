@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import LebensArt from '../views/LebensArt.vue';
-import Impressum from '../views/Impressum.vue';
 
 const routes = [
     {
@@ -12,7 +11,7 @@ const routes = [
     {
         path: '/impressum',
         name: 'Impressum',
-        component: Impressum,
+        component: () => import('../views/Impressum.vue'),
     },
 ];
 

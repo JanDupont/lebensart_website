@@ -3,14 +3,14 @@
         <div class="d-flex">
             <v-btn
                 class="mx-4"
-                icon="mdi-facebook"
+                :icon="mdiFacebook"
                 variant="text"
                 href="https://www.facebook.com/LebensartHermeskeil/"
                 target="_blank"
             ></v-btn>
             <v-btn
                 class="mx-4"
-                icon="mdi-instagram"
+                :icon="mdiInstagram"
                 variant="text"
                 href="https://www.instagram.com/lebensarthermeskeil/?hl=de"
                 target="_blank"
@@ -32,7 +32,7 @@
         <div>
             Website by Jan Dupont
             <v-btn
-                icon="mdi-github"
+                :icon="mdiGithub"
                 variant="text"
                 href="https://github.com/JanDupont"
                 target="_blank"
@@ -42,4 +42,6 @@
     </v-footer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { mdiFacebook, mdiGithub, mdiInstagram } from '@mdi/js';
+</script>

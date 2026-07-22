@@ -10,6 +10,7 @@
                 <v-img
                     height="200"
                     :src="t('SortimentPage.' + String(index) + '.src')"
+                    :alt="t('SortimentPage.' + String(index) + '.title')"
                     cover
                     class="text-white"
                 ></v-img>

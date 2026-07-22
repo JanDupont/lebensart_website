@@ -31,59 +31,59 @@
     },
     "SortimentPage": {
         "1": {
-            "src": "/assets/img/LebensArt_Dupont_Brände.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Brände.webp",
             "title": "Spirituosen - Brände - Liköre"
         },
         "2": {
-            "src": "/assets/img/LebensArt_Dupont_Feinkost.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Feinkost.webp",
             "title": "Feinkost"
         },
         "3": {
-            "src": "/assets/img/LebensArt_Dupont_Essig_Öl.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Essig_Öl.webp",
             "title": "Essig - Öl"
         },
         "4": {
-            "src": "/assets/img/LebensArt_Dupont_Nudeln.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Nudeln.webp",
             "title": "Pasta - Pesto"
         },
         "5": {
-            "src": "/assets/img/LebensArt_Dupont_Dips.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Dips.webp",
             "title": "Dips - Gewürzmischungen"
         },
         "6": {
-            "src": "/assets/img/LebensArt_Dupont_Senf.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Senf.webp",
             "title": "Senfe - Senfmühle"
         },
         "7": {
-            "src": "/assets/img/LebensArt_Dupont_Pralinen.jpeg",
+            "src": "/assets/img/LebensArt_Dupont_Pralinen.webp",
             "title": "Pralinen - Schokoladen"
         },
         "8": {
-            "src": "/assets/img/LebensArt_Dupont_Tee.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Tee.webp",
             "title": "Tee - Zubehör"
         },
         "9": {
-            "src": "/assets/img/LebensArt_Dupont_Spueltuch.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Spueltuch.webp",
             "title": "nachhaltig - vegan"
         },
         "10": {
-            "src": "/assets/img/LebensArt_Dupont_Deko.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Deko.webp",
             "title": "Deko"
         },
         "11": {
-            "src": "/assets/img/LebensArt_Dupont_Tischdeko.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Tischdeko.webp",
             "title": "Tischdeko"
         },
         "12": {
-            "src": "/assets/img/LebensArt_Dupont_Trendschmuck.jpeg",
+            "src": "/assets/img/LebensArt_Dupont_Trendschmuck.webp",
             "title": "Trendschmuck"
         },
         "13": {
-            "src": "/assets/img/LebensArt_Dupont_Gutschein.jpeg",
+            "src": "/assets/img/LebensArt_Dupont_Gutschein.webp",
             "title": "Gutscheine"
         },
         "14": {
-            "src": "/assets/img/LebensArt_Dupont_Verpackung.jpg",
+            "src": "/assets/img/LebensArt_Dupont_Verpackung.webp",
             "title": "Verpackungsservice"
         }
     },

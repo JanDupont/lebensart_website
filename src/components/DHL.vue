@@ -5,7 +5,13 @@
         </template>
 
         <template #left_and_bottom>
-            <img class="DHLImg" src="../assets/img/DHL.svg" />
+            <img
+                class="DHLImg"
+                src="../assets/img/DHL.svg"
+                :alt="t('DHLPage.heading')"
+                loading="lazy"
+                decoding="async"
+            />
         </template>
 
         <template #right_and_top>
@@ -15,30 +21,30 @@
                 <div class="subtitle">
                     <v-card color="#ffcc01" class="mb-1">
                         <v-card-text>
-                            <v-icon icon="mdi-package-variant-closed"></v-icon>
+                            <v-icon :icon="mdiPackageVariantClosed"></v-icon>
                             {{ t('DHLPage.text1') }}
                         </v-card-text>
                     </v-card>
                     <v-card color="#ffcc01" class="mb-1">
                         <v-card-text>
-                            <v-icon icon="mdi-postage-stamp"></v-icon>
+                            <v-icon :icon="mdiPostageStamp"></v-icon>
                             {{ t('DHLPage.text2') }}
                         </v-card-text>
                     </v-card>
                     <v-card color="#ffcc01" class="mb-1">
                         <v-card-text>
-                            <v-icon icon="mdi-printer"></v-icon>
+                            <v-icon :icon="mdiPrinter"></v-icon>
                             {{ t('DHLPage.text3') }}
                         </v-card-text>
                     </v-card>
                     <v-card color="success" :href="t('DHLPage.link')" target="_blank">
                         <div class="text-h6 ma-2" style="text-align: center">
-                            <v-icon icon="mdi-cube-send"></v-icon>
+                            <v-icon :icon="mdiCubeSend"></v-icon>
                             {{ t('DHLPage.text4') }}
                         </div>
                         <div class="d-flex align-center">
                             <v-icon
-                                icon="mdi-cursor-default-click"
+                                :icon="mdiCursorDefaultClick"
                                 width="100%"
                                 class="mx-auto"
                             ></v-icon>
@@ -78,6 +84,13 @@
 import DuoContentGrid from './baseComponents/Duo_Content_Grid.vue';
 import WaveDivider from '../components/WaveDivider.vue';
 import { useI18n } from 'vue-i18n';
+import {
+    mdiCubeSend,
+    mdiCursorDefaultClick,
+    mdiPackageVariantClosed,
+    mdiPostageStamp,
+    mdiPrinter,
+} from '@mdi/js';
 
 const { t } = useI18n();
 </script>
