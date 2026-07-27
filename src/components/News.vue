@@ -14,8 +14,8 @@
 
         <template #right_and_top>
             <div align="left" style="min-width: 300px; max-width: 50%">
-                <div class="topLine">{{ t('NewsPage.topLine') }}</div>
-                <div class="heading">{{ t('NewsPage.heading') }}</div>
+                <div class="topLine">{{ t("NewsPage.topLine") }}</div>
+                <div class="heading">{{ t("NewsPage.heading") }}</div>
                 <div class="dates-container">
                     <div v-for="(date, index) in dates" :key="index" class="date-entry">
                         <div class="date-day">{{ date.day }}</div>
@@ -32,14 +32,14 @@
 </template>
 
 <script setup lang="ts">
-import DuoContentGrid from './baseComponents/Duo_Content_Grid.vue';
-import { useI18n } from 'vue-i18n';
-import { computed } from 'vue';
+import DuoContentGrid from "./baseComponents/Duo_Content_Grid.vue";
+import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 
 const { t, tm } = useI18n();
 
 const dates = computed(() => {
-    const datesData: { day: string; date: string; time: string }[] = tm('NewsPage.dates');
+    const datesData: { day: string; date: string; time: string }[] = tm("NewsPage.dates");
     return Array.isArray(datesData) ? datesData : [];
 });
 </script>
